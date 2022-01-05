@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Calculator</title>
+</head>
+<body class="bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-3 text-center mb-3">Weight Converter</h1>
+                <form class="form-group text-center">
+                    <input id="weightValue" class="form-control-lg mx-2 w-25" type="number" placeholder="Quantiy..."> 
+                    <select id="selectedUnit" class="form-control-lg mx-2">
+                        <option value="lb">lb</option>
+                        <option value="kg">kg</option>
+                        <option value="g">g</option>
+                        <option value="oz">oz</option>
+                    </select> 
+                    <div>
+                        <button id="goButton" class="btn btn-dark btn-lg my-2">Go</button>
+                    </div>
+                </form>
+
+                <div id="output">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

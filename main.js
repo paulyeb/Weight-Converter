@@ -29,6 +29,7 @@ goButton.addEventListener('click', (e) => {
 
     
 
+    output.innerHTML = null
     
     if(selectedUnit.value === 'lb') {
         let div = document.createElement('div');
